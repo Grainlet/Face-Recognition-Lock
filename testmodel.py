@@ -14,7 +14,7 @@ recognizer.read("Trainer.yml")
 
 name_list = ["", "Chando", "Pravas"]
 
-imgBackground = cv2.imread("background.png")
+imgBackground = cv2.imread("backgrounds.png")
 
 while True:
     ret,frame=video.read()
